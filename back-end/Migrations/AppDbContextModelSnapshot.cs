@@ -40,7 +40,7 @@ namespace back_end.Migrations
 
                     b.HasKey("idusers");
 
-                    b.ToTable("gamelogged");
+                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }

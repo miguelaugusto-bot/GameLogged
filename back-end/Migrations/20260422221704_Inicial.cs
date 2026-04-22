@@ -15,7 +15,7 @@ namespace back_end.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "gamelogged",
+                name: "Usuario",
                 columns: table => new
                 {
                     idusers = table.Column<int>(type: "int", nullable: false)
@@ -29,7 +29,7 @@ namespace back_end.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_gamelogged", x => x.idusers);
+                    table.PrimaryKey("PK_Usuario", x => x.idusers);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -38,7 +38,7 @@ namespace back_end.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "gamelogged");
+                name: "Usuario");
         }
     }
 }

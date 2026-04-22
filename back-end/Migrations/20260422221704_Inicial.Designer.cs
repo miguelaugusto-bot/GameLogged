@@ -11,7 +11,7 @@ using back_end.Data;
 namespace back_end.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260416022851_Inicial")]
+    [Migration("20260422221704_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
@@ -43,7 +43,7 @@ namespace back_end.Migrations
 
                     b.HasKey("idusers");
 
-                    b.ToTable("gamelogged");
+                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }
