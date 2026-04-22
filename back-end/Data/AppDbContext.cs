@@ -13,5 +13,9 @@ namespace back_end.Data
 
         //criação do banco de dados, mas preciso saber como coloca um if notexists
         public DbSet<Usuario> gamelogged { get; set; } //cria tabelas
+        //public object Usuarios { get; internal set; } esta dando erro ser um objeto
+
+        //efetuar a consulta para verificar se o usuário existe, se não existir, criar um novo usuário
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
