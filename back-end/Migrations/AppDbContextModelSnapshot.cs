@@ -40,7 +40,7 @@ namespace back_end.Migrations
 
                     b.HasKey("idusers");
 
-                    b.ToTable("Usuario");
+                    b.ToTable("Usuario", (string)null);
                 });
 #pragma warning restore 612, 618
         }

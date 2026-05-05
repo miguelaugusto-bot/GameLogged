@@ -17,4 +17,12 @@ namespace back_end.Models
 
         public string password { get; set; }
     }
+
+    public class Teste
+    {
+        [Key]
+        public int idteste { get; set; }
+
+        public string nome { get; set; }
+    }
 }
