@@ -1,0 +1,81 @@
+/* =============================================
+   GameLogged — Login Page
+   ============================================= */
+
+.page-content {
+  padding: 40px 24px 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Empurra o conteúdo para o centro vertical no mobile */
+@media (max-width: 599px) {
+  .page-content {
+    justify-content: center;
+  }
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 5vw, 1.75rem);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+
+/* Eye toggle */
+.eye-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  transition: color var(--transition);
+  min-width: 36px;
+  min-height: 36px;
+  justify-content: center;
+}
+.eye-toggle:hover { color: var(--text-primary); }
+
+.forgot-link {
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--accent-purple);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.oauth-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-redirect {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 24px;
+  padding-bottom: 8px;
+}
+
+.auth-redirect a {
+  font-weight: 700;
+  color: var(--accent-purple);
+}

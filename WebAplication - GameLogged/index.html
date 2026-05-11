@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameLogged</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: var(--font-body);
+    }
+    .nav-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-xl);
+      padding: 40px 36px;
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow-card);
+    }
+    .nav-title {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .nav-subtitle {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 13px 16px;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--transition);
+    }
+    .nav-link:hover {
+      border-color: var(--accent-purple);
+      background: rgba(108,99,255,0.08);
+      color: var(--accent-purple);
+      transform: translateX(4px);
+    }
+    .nav-link-icon {
+      width: 28px;
+      height: 28px;
+      background: var(--gradient-brand);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+  </style>
 </head>
 <body>
-    <h1>Olá Novo Mundo</h1>
+  <div class="nav-card">
+
+    <div class="logo-icon">
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#6c63ff"/>
+            <stop offset="100%" stop-color="#e040fb"/>
+          </linearGradient>
+        </defs>
+        <path d="M10 22C10 18 13 16 17 16H47C51 16 54 18 54 22V38C54 45 49 50 42 50H22C15 50 10 45 10 38V22Z"
+              stroke="url(#g1)" stroke-width="2.5" fill="none"/>
+        <rect x="17" y="30" width="4" height="10" rx="1" fill="url(#g1)" opacity=".8"/>
+        <rect x="14" y="33" width="10" height="4" rx="1" fill="url(#g1)" opacity=".8"/>
+        <circle cx="44" cy="31" r="2.5" fill="url(#g1)" opacity=".9"/>
+        <circle cx="49" cy="35" r="2.5" fill="url(#g1)" opacity=".9"/>
+        <circle cx="44" cy="39" r="2.5" fill="url(#g1)" opacity=".9"/>
+        <circle cx="39" cy="35" r="2.5" fill="url(#g1)" opacity=".9"/>
+      </svg>
+    </div>
+
+    <h1 class="nav-title text-gradient">GameLogged</h1>
+    <p class="nav-subtitle">Escolha uma página para visualizar</p>
+
+    <div class="nav-links">
+      <a href="pages/login.html" class="nav-link">
+        <span class="nav-link-icon">🔐</span>
+        Login
+      </a>
+      <a href="pages/cadastro.html" class="nav-link">
+        <span class="nav-link-icon">📝</span>
+        Cadastro
+      </a>
+      <a href="pages/perfil.html" class="nav-link">
+        <span class="nav-link-icon">🎮</span>
+        Perfil do Usuário
+      </a>
+    </div>
+  </div>
 </body>
 </html>
