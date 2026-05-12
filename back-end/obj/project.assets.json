@@ -2497,31 +2497,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\playe\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\david\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\back-end\\back-end.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\back-end.csproj",
       "projectName": "back-end",
-      "projectPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\back-end\\back-end.csproj",
-      "packagesPath": "C:\\Users\\playe\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\back-end\\obj\\",
+      "projectPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\back-end.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\playe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2588,7 +2581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
