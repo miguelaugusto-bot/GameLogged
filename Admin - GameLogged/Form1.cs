@@ -20,23 +20,10 @@ namespace Admin___GameLogged
 
         private void teste_Click(object sender, EventArgs e)
         {
-            // Cria uma instância da classe que você acabou de criar
-            ConexaoBanco bd = new ConexaoBanco();
-            MySqlConnection conexao = bd.conectar();
-
-            try
-            {
-                conexao.Open();
-                MessageBox.Show("Conectado usando o arquivo separado!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro: " + ex.Message);
-            }
-            finally
-            {
-                conexao.Close();
-            }
+            Painel_Dash novoForm = new Painel_Dash();
+            novoForm.Tag = this;
+            novoForm.Show();
+            this.Hide();
         }
     }
 }

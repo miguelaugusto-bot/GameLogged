@@ -39,3 +39,4 @@ D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin -
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - .9565A217.Up2Date
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.exe
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.pdb
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Painel_Dash.resources
