@@ -1,0 +1,41 @@
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Admin - GameLogged.exe.config
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Admin - GameLogged.exe
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Admin - GameLogged.pdb
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Google.Protobuf.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Compression.LZ4.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Hash.xxHash.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\MySql.Data.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Buffers.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.IO.Pipelines.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Memory.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Numerics.Vectors.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\ZstdSharp.dll
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Google.Protobuf.pdb
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Google.Protobuf.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Compression.LZ4.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\K4os.Hash.xxHash.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\MySql.Data.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Buffers.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.IO.Pipelines.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Memory.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Numerics.Vectors.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.AssemblyReference.cache
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Form1.resources
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Properties.Resources.resources
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.GenerateResource.cache
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.CoreCompileInputs.cache
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - .9565A217.Up2Date
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.exe
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.pdb

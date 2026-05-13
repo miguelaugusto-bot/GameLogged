@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConexaoBanco.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\ConexaoBanco.cs",
+              "RelativeDocumentMoniker": "ConexaoBanco.cs",
+              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\ConexaoBanco.cs",
+              "RelativeToolTip": "ConexaoBanco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T01:10:40.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -31,6 +60,32 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T02:05:48.152Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:57:59.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:54:49.165Z",
+              "EditorCaption": ""
             }
           ]
         }

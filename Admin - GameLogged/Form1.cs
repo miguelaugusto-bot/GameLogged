@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,27 @@ namespace Admin___GameLogged
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void teste_Click(object sender, EventArgs e)
+        {
+            // Cria uma instância da classe que você acabou de criar
+            ConexaoBanco bd = new ConexaoBanco();
+            MySqlConnection conexao = bd.conectar();
+
+            try
+            {
+                conexao.Open();
+                MessageBox.Show("Conectado usando o arquivo separado!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message);
+            }
+            finally
+            {
+                conexao.Close();
+            }
         }
     }
 }
