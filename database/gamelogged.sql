@@ -35,33 +35,31 @@ CREATE TABLE `__efmigrationshistory` (
 
 LOCK TABLES `__efmigrationshistory` WRITE;
 /*!40000 ALTER TABLE `__efmigrationshistory` DISABLE KEYS */;
-INSERT INTO `__efmigrationshistory` VALUES ('20260416022851_Inicial','9.0.0');
+INSERT INTO `__efmigrationshistory` VALUES ('20260505223851_Inicial','9.0.0');
 /*!40000 ALTER TABLE `__efmigrationshistory` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `gamelogged`
+-- Table structure for table `plataformas`
 --
 
-DROP TABLE IF EXISTS `gamelogged`;
+DROP TABLE IF EXISTS `plataformas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `gamelogged` (
-  `idusers` int NOT NULL AUTO_INCREMENT,
-  `username` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `email` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `password` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  PRIMARY KEY (`idusers`)
+CREATE TABLE `plataformas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `plataforma` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `gamelogged`
+-- Dumping data for table `plataformas`
 --
 
-LOCK TABLES `gamelogged` WRITE;
-/*!40000 ALTER TABLE `gamelogged` DISABLE KEYS */;
-/*!40000 ALTER TABLE `gamelogged` ENABLE KEYS */;
+LOCK TABLES `plataformas` WRITE;
+/*!40000 ALTER TABLE `plataformas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `plataformas` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -72,12 +70,14 @@ DROP TABLE IF EXISTS `usuario`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `usuario` (
-  `idusers` int NOT NULL,
-  `username` varchar(45) DEFAULT NULL,
-  `password` varchar(45) DEFAULT NULL,
-  `email` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`idusers`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nickname` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `nome` varchar(100) DEFAULT NULL,
+  `email` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `dt_nasc` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -86,13 +86,9 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'teste','teste123','teste@gmail.com');
+INSERT INTO `usuario` VALUES (2,'zero','miguel','zero@gmail.com','teste123','2026-05-11');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping routines for database 'gamelogged'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -103,4 +99,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-04-22 18:55:56
+-- Dump completed on 2026-05-10 23:06:41

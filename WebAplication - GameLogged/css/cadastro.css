@@ -1,0 +1,120 @@
+/* =============================================
+   GameLogged — Cadastro Page
+   ============================================= */
+
+.page-content {
+  padding: 36px 24px 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 5vw, 1.65rem);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* Eye toggles */
+.eye-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 36px;
+  transition: color var(--transition);
+}
+.eye-toggle:hover { color: var(--text-primary); }
+
+/* Password hints */
+.password-hints {
+  font-size: 0.76rem;
+  line-height: 1.9;
+  margin: 2px 0 12px 2px;
+}
+
+.hint {
+  display: block;
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.hint.ok { color: var(--accent-green); }
+
+/* Termos */
+.terms-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.terms-label input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  min-width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border: 1.5px solid var(--text-muted);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition);
+  position: relative;
+}
+
+.terms-label input[type="checkbox"]:checked {
+  background: var(--accent-purple);
+  border-color: var(--accent-purple);
+}
+
+.terms-label input[type="checkbox"]:checked::after {
+  content: '✓';
+  position: absolute;
+  color: #fff;
+  font-size: 11px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.terms-label a {
+  color: var(--accent-purple);
+  font-weight: 600;
+}
+
+/* Auth redirect */
+.auth-redirect {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 20px;
+  padding-bottom: 8px;
+}
+
+.auth-redirect a {
+  font-weight: 700;
+  color: var(--accent-purple);
+}
