@@ -32,11 +32,11 @@ D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.AssemblyReference.cache
-D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Form1.resources
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Properties.Resources.resources
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.GenerateResource.cache
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.csproj.CoreCompileInputs.cache
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - .9565A217.Up2Date
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.exe
 D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin - GameLogged.pdb
-D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Painel_Dash.resources
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.Login.resources
+D:\Repositorios\Uninove\Projetos\GameLogged\Admin - GameLogged\obj\Debug\Admin___GameLogged.AdminPainel.resources
