@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:adminpainel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|d:\\repositorios\\uninove\\projetos\\gamelogged\\admin - gamelogged\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA2CC57E-2EAA-4F90-B1FC-AB59A347B24C}|Admin - GameLogged.csproj|D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Login.cs",
               "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwB8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T23:36:43.435Z",
               "EditorCaption": ""
@@ -90,24 +90,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminPainel.cs",
-              "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs",
-              "RelativeDocumentMoniker": "AdminPainel.cs",
-              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs*",
-              "RelativeToolTip": "AdminPainel.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T23:48:29.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AdminPainel.cs [Design]",
               "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs",
               "RelativeDocumentMoniker": "AdminPainel.cs",
-              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs [Design]*",
-              "RelativeToolTip": "AdminPainel.cs [Design]*",
+              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs [Design]",
+              "RelativeToolTip": "AdminPainel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T23:48:07.224Z",
               "EditorCaption": " [Design]"
@@ -127,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -140,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
@@ -149,6 +136,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T23:36:22.769Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminPainel.cs",
+              "DocumentMoniker": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs",
+              "RelativeDocumentMoniker": "AdminPainel.cs",
+              "ToolTip": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\Admin - GameLogged\\AdminPainel.cs",
+              "RelativeToolTip": "AdminPainel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:48:29.249Z",
+              "EditorCaption": ""
             }
           ]
         }
