@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API - GameLogged")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85b87dc45c33f1c7690862e66c28a079547c992c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2dd066998f854d4eb2686850cf2853d09db2de4")]
 [assembly: System.Reflection.AssemblyProductAttribute("API - GameLogged")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API - GameLogged")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
