@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\API - GameLogged\\API - GameLogged.csproj": {}
+    "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj": {}
   },
   "projects": {
-    "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\API - GameLogged\\API - GameLogged.csproj": {
+    "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
         "projectName": "API - GameLogged",
-        "projectPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
-        "packagesPath": "C:\\Users\\playe\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorios\\Uninove\\Projetos\\GameLogged\\API - GameLogged\\obj\\",
+        "projectPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\playe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

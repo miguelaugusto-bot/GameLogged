@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W6WVW5LsnNE=",
+  "dgSpecHash": "n71WiAAI18E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\back-end.csproj",
+  "projectFilePath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",

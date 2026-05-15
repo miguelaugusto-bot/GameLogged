@@ -2502,11 +2502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\back-end.csproj",
-      "projectName": "back-end",
-      "projectPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\back-end.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
+      "projectName": "API - GameLogged",
+      "projectPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\API - GameLogged.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\back-end\\obj\\",
+      "outputPath": "C:\\Users\\david\\Documents\\Aulas\\GameLogged\\GameLogged\\API - GameLogged\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2519,7 +2519,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -2538,7 +2537,6 @@
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
@@ -2583,7 +2581,6 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
