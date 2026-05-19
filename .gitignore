@@ -1,0 +1,42 @@
+## Visual Studio e .NET Core / .NET 10
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+## Caches do NuGet e ferramentas de build
+.nuget/
+artifacts/
+*.nuget.cache
+
+## Arquivos gerados pelo VS Code (se alguém usar)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Sistema Operacional (Evita sujeira de Mac/Windows)
+.DS_Store
+Thumbs.db
+
+##Databases
+database/*.bak
+database/*.bak.*
+
+##Documentos
+Doc/*.pdf
+Doc/*.docx
+
+## Pastas de cache e builds do Visual Studio Community
+.vs/
+[Build]/
+packages/
+
+## Se você salvou arquivos de publicação local
+*.pubxml
+*.pubxml.user

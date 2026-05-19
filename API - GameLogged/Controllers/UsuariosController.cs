@@ -25,7 +25,7 @@ namespace back_end.Controllers
         [HttpPost]
         public async Task<IActionResult> CriarUsuario(Usuario usuario)
         {
-            _appDbContext.Usuarios.Add(usuario);
+            _appDbContext.Usuario.Add(usuario);
 
             await _appDbContext.SaveChangesAsync();
             return Ok(usuario);
@@ -35,14 +35,14 @@ namespace back_end.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
-            var usuarios = await _appDbContext.Usuarios.ToListAsync();
+            var usuarios = await _appDbContext.Usuario.ToListAsync();
             return Ok(usuarios);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
-            var usuario = await _appDbContext.Usuarios.FindAsync(id);
+            var usuario = await _appDbContext.Usuario.FindAsync(id);
             if (usuario == null)
             {
                 return NotFound("Não foi localizado");
@@ -57,7 +57,7 @@ namespace back_end.Controllers
                 return BadRequest("ID do usuário não corresponde ao ID fornecido.");
             }
 
-            var usuarioExistente = await _appDbContext.Usuarios.FindAsync(id);
+            var usuarioExistente = await _appDbContext.Usuario.FindAsync(id);
             if (usuarioExistente == null)
             {
                 return NotFound("Usuário não encontrado.");
@@ -71,13 +71,13 @@ namespace back_end.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUsuario(int id)
         {
-            var usuarioExistente = await _appDbContext.Usuarios.FindAsync(id);
+            var usuarioExistente = await _appDbContext.Usuario.FindAsync(id);
             if (usuarioExistente == null)
             {
                 return NotFound("Usuário não encontrado.");
             }
 
-            _appDbContext.Usuarios.Remove(usuarioExistente);
+            _appDbContext.Usuario.Remove(usuarioExistente);
             await _appDbContext.SaveChangesAsync();
 
             return Ok();

@@ -12,10 +12,12 @@ namespace back_end.Data
         public AppDbContext(DbContextOptions options) : base(options){}
 
         //criação do banco de dados, mas preciso saber como coloca um if notexists
-        public DbSet<Usuario> gamelogged { get; set; } //cria tabelas
         //public object Usuarios { get; internal set; } esta dando erro ser um objeto
 
         //efetuar a consulta para verificar se o usuário existe, se não existir, criar um novo usuário
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+
+        //efetuar a consulta para verificar se a plataforma existe, se não existir, criar uma nova plataforma
+        public DbSet<Plataforma> Plataforma { get; set; }
     }
 }
