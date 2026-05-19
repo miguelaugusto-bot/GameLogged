@@ -33,11 +33,13 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginAcesso
             // 
-            this.LoginAcesso.Location = new System.Drawing.Point(69, 268);
+            this.LoginAcesso.Location = new System.Drawing.Point(76, 329);
             this.LoginAcesso.Name = "LoginAcesso";
             this.LoginAcesso.Size = new System.Drawing.Size(139, 23);
             this.LoginAcesso.TabIndex = 0;
@@ -48,14 +50,14 @@
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(37, 145);
+            this.txtUser.Location = new System.Drawing.Point(48, 214);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(190, 20);
             this.txtUser.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(37, 212);
+            this.txtPassword.Location = new System.Drawing.Point(48, 277);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(190, 20);
             this.txtPassword.TabIndex = 2;
@@ -63,7 +65,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 129);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(23, 198);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 3;
@@ -73,18 +76,31 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 196);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(23, 261);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Digite sua senha";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Black;
+            this.pictureBox1.Image = global::Admin___GameLogged.Properties.Resources.Captura_de_tela_2026_05_19_080312;
+            this.pictureBox1.Location = new System.Drawing.Point(37, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(246, 148);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 349);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(28)))));
+            this.ClientSize = new System.Drawing.Size(311, 398);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
@@ -93,6 +109,7 @@
             this.Name = "Login";
             this.Text = "Admin - GameLogged";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,6 +122,7 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

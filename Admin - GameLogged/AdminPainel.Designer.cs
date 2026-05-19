@@ -32,6 +32,8 @@
             this.bt_usuario = new System.Windows.Forms.Button();
             this.bt_solicitações = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bt_logout = new System.Windows.Forms.Button();
+            this.bt_novo_cadastro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,11 +76,31 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // bt_logout
+            // 
+            this.bt_logout.Location = new System.Drawing.Point(12, 620);
+            this.bt_logout.Name = "bt_logout";
+            this.bt_logout.Size = new System.Drawing.Size(216, 35);
+            this.bt_logout.TabIndex = 4;
+            this.bt_logout.Text = "Sair";
+            this.bt_logout.UseVisualStyleBackColor = true;
+            // 
+            // bt_novo_cadastro
+            // 
+            this.bt_novo_cadastro.Location = new System.Drawing.Point(255, 79);
+            this.bt_novo_cadastro.Name = "bt_novo_cadastro";
+            this.bt_novo_cadastro.Size = new System.Drawing.Size(120, 38);
+            this.bt_novo_cadastro.TabIndex = 5;
+            this.bt_novo_cadastro.Text = "Novo Cadastro";
+            this.bt_novo_cadastro.UseVisualStyleBackColor = true;
+            // 
             // AdminPainel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1141, 667);
+            this.Controls.Add(this.bt_novo_cadastro);
+            this.Controls.Add(this.bt_logout);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bt_solicitações);
             this.Controls.Add(this.bt_usuario);
@@ -97,5 +119,7 @@
         private System.Windows.Forms.Button bt_usuario;
         private System.Windows.Forms.Button bt_solicitações;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button bt_logout;
+        private System.Windows.Forms.Button bt_novo_cadastro;
     }
 }
