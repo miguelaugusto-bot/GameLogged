@@ -46,7 +46,7 @@
             this.LoginAcesso.Text = "Login";
             this.LoginAcesso.UseMnemonic = false;
             this.LoginAcesso.UseVisualStyleBackColor = true;
-            this.LoginAcesso.Click += new System.EventHandler(this.teste_Click);
+            this.LoginAcesso.Click += new System.EventHandler(this.btLogin_Click);
             // 
             // txtUser
             // 
@@ -88,7 +88,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
             this.pictureBox1.Image = global::Admin___GameLogged.Properties.Resources.Captura_de_tela_2026_05_19_080312;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 22);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(246, 148);
             this.pictureBox1.TabIndex = 5;

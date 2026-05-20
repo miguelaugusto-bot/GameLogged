@@ -23,7 +23,7 @@ namespace back_end.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var usuario = await _appDbContext.Usuarios
+            var usuario = await _appDbContext.Usuario
                 .FirstOrDefaultAsync(u => u.email == request.email && u.password == request.password);
 
             if (usuario == null)

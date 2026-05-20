@@ -1,0 +1,5 @@
+[2026-05-19 21:26:25] testes
+[2026-05-19 21:36:31] Login bem-sucedido para o usuário: msngl
+[2026-05-19 21:36:54] Usuário 'teste2' cadastrado com sucesso.
+[2026-05-19 21:38:22] Login bem-sucedido para o usuário: msngl
+[2026-05-19 21:39:01] Usuário 'barauna' cadastrado com sucesso.

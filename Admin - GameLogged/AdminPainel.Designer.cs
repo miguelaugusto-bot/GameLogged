@@ -33,7 +33,11 @@
             this.bt_solicitações = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bt_logout = new System.Windows.Forms.Button();
-            this.bt_novo_cadastro = new System.Windows.Forms.Button();
+            this.btNovoCadastro = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btAtualizar = new System.Windows.Forms.Button();
+            this.btLogs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +63,7 @@
             // 
             // bt_solicitações
             // 
-            this.bt_solicitações.Location = new System.Drawing.Point(12, 207);
+            this.bt_solicitações.Location = new System.Drawing.Point(12, 529);
             this.bt_solicitações.Name = "bt_solicitações";
             this.bt_solicitações.Size = new System.Drawing.Size(216, 38);
             this.bt_solicitações.TabIndex = 2;
@@ -80,26 +84,71 @@
             // 
             this.bt_logout.Location = new System.Drawing.Point(12, 620);
             this.bt_logout.Name = "bt_logout";
-            this.bt_logout.Size = new System.Drawing.Size(216, 35);
+            this.bt_logout.Size = new System.Drawing.Size(123, 35);
             this.bt_logout.TabIndex = 4;
             this.bt_logout.Text = "Sair";
             this.bt_logout.UseVisualStyleBackColor = true;
+            this.bt_logout.Click += new System.EventHandler(this.bt_logout_Click);
             // 
-            // bt_novo_cadastro
+            // btNovoCadastro
             // 
-            this.bt_novo_cadastro.Location = new System.Drawing.Point(255, 79);
-            this.bt_novo_cadastro.Name = "bt_novo_cadastro";
-            this.bt_novo_cadastro.Size = new System.Drawing.Size(120, 38);
-            this.bt_novo_cadastro.TabIndex = 5;
-            this.bt_novo_cadastro.Text = "Novo Cadastro";
-            this.bt_novo_cadastro.UseVisualStyleBackColor = true;
+            this.btNovoCadastro.Location = new System.Drawing.Point(255, 79);
+            this.btNovoCadastro.Name = "btNovoCadastro";
+            this.btNovoCadastro.Size = new System.Drawing.Size(120, 38);
+            this.btNovoCadastro.TabIndex = 5;
+            this.btNovoCadastro.Text = "Novo Cadastro";
+            this.btNovoCadastro.UseVisualStyleBackColor = true;
+            this.btNovoCadastro.Click += new System.EventHandler(this.bt_novo_cadastro_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 207);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(216, 37);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Jogos";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 250);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(216, 37);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Plataformas";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btAtualizar
+            // 
+            this.btAtualizar.Location = new System.Drawing.Point(381, 79);
+            this.btAtualizar.Name = "btAtualizar";
+            this.btAtualizar.Size = new System.Drawing.Size(106, 38);
+            this.btAtualizar.TabIndex = 8;
+            this.btAtualizar.Text = "Atualizar";
+            this.btAtualizar.UseVisualStyleBackColor = true;
+            this.btAtualizar.Click += new System.EventHandler(this.btAtualizar_Click);
+            // 
+            // btLogs
+            // 
+            this.btLogs.Location = new System.Drawing.Point(141, 620);
+            this.btLogs.Name = "btLogs";
+            this.btLogs.Size = new System.Drawing.Size(103, 35);
+            this.btLogs.TabIndex = 9;
+            this.btLogs.Text = "Logs";
+            this.btLogs.UseVisualStyleBackColor = true;
+            this.btLogs.Click += new System.EventHandler(this.btLogs_Click);
             // 
             // AdminPainel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(1141, 667);
-            this.Controls.Add(this.bt_novo_cadastro);
+            this.Controls.Add(this.btLogs);
+            this.Controls.Add(this.btAtualizar);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btNovoCadastro);
             this.Controls.Add(this.bt_logout);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bt_solicitações);
@@ -120,6 +169,10 @@
         private System.Windows.Forms.Button bt_solicitações;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button bt_logout;
-        private System.Windows.Forms.Button bt_novo_cadastro;
+        private System.Windows.Forms.Button btNovoCadastro;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btAtualizar;
+        private System.Windows.Forms.Button btLogs;
     }
 }

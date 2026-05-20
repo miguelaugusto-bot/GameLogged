@@ -95,7 +95,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastraUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastraUsuario.Designer.cs">
+      <DependentUpon>CadastraUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConexaoBanco.cs" />
+    <Compile Include="GerenciadorLogs.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,13 +115,25 @@
     <Compile Include="AdminPainel.Designer.cs">
       <DependentUpon>AdminPainel.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogsSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogsSystem.Designer.cs">
+      <DependentUpon>LogsSystem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadastraUsuario.resx">
+      <DependentUpon>CadastraUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminPainel.resx">
       <DependentUpon>AdminPainel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogsSystem.resx">
+      <DependentUpon>LogsSystem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

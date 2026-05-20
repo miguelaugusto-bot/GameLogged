@@ -18,10 +18,10 @@ namespace Admin___GameLogged
             InitializeComponent();
         }
 
-        private void teste_Click(object sender, EventArgs e)
+        private void btLogin_Click(object sender, EventArgs e)
         {
             //coletar os dados informados pelo usuário
-            string usuario = txtUser.Text;
+            string acesso = txtUser.Text;
             string senha = txtPassword.Text;
 
             //efetuar conexão com o banco de dados e verificar se os dados estão corretos
@@ -33,9 +33,9 @@ namespace Admin___GameLogged
                 conexao.Open();
 
                 //query para verificar se o usuário e senha existem na tabela
-                string sql = "SELECT COUNT(*) FROM gamelogged.usuario WHERE nickname = @user AND password = @pass";
+                string sql = "SELECT COUNT(*) FROM gamelogged.funcionario WHERE acesso = @user AND password = @pass";
                 MySqlCommand cmd = new MySqlCommand(sql, conexao);
-                cmd.Parameters.AddWithValue("@user", usuario);
+                cmd.Parameters.AddWithValue("@user", acesso);
                 cmd.Parameters.AddWithValue("@pass", senha);
 
                 //executa a query e obtém o resultado
@@ -44,6 +44,7 @@ namespace Admin___GameLogged
                 //verifica se o resultado é maior que 0, ou seja, se encontrou um usuário com as credenciais fornecidas
                 if (resultado > 0)
                 {
+                    GerenciadorLogs.RegistrarLog($"Login bem-sucedido para o usuário: {acesso}");
                     // Login com sucesso! Abre o painel
                     AdminPainel admin = new AdminPainel();
                     admin.Show();
@@ -51,6 +52,7 @@ namespace Admin___GameLogged
                 }
                 else
                 {
+                    GerenciadorLogs.RegistrarLog($"Falha de login para o usuário: {acesso}");
                     MessageBox.Show("Usuário ou senha incorretos.");
                 }
 

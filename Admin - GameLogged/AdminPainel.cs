@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Utilities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -66,9 +67,20 @@ namespace Admin___GameLogged
             }
         }
 
-        public void inserir_dados()
+        public void cadastrar_usuario()
         {
+            //instanciar o formulário de cadastro
+            using (CadastrarUsuario cadastro = new CadastrarUsuario())
+            {
+                //exibir como modal (tentando bloquear a tela de fundo)
+                var viewCadastar = cadastro.ShowDialog();
 
+                if (viewCadastar == DialogResult.OK)
+                {
+                    // Depois que o formulário de cadastro for fechado, recarregamos os dados para mostrar o novo usuário
+                    carregar_Dados();
+                }
+            }
         }
 
         public void procurar_dados()
@@ -190,6 +202,30 @@ namespace Admin___GameLogged
         private void bt_dashboard_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_logout_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void bt_novo_cadastro_Click(object sender, EventArgs e)
+        {
+            cadastrar_usuario();
+        }
+
+        private void btAtualizar_Click(object sender, EventArgs e)
+        {
+            carregar_Dados();
+        }
+
+        private void btLogs_Click(object sender, EventArgs e)
+        {
+            LogsSystem logs = new LogsSystem();
+            logs.Show();
+            this.Hide();
         }
     }
 }

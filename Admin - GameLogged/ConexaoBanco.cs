@@ -19,6 +19,33 @@ namespace Admin___GameLogged
             return new MySqlConnection(dadosConexao);
         }
 
+        public int ExecutarComandoQuery(string sql, MySqlParameter[] parametros = null)
+        {
+            using (MySqlConnection conexao = conectar())
+            {
+                try
+                {
+                    conexao.Open();
+                    using (MySqlCommand comando = new MySqlCommand(sql, conexao))
+                    {
+                        //verificando se possui valor dentro do parametros (apenas por garantia)
+                        if(parametros != null)
+                        {
+                            comando.Parameters.AddRange(parametros);
+                        }
+
+                        //Efetuar comando do CRUD
+                        return comando.ExecuteNonQuery();
+                    }
+                }
+                //para caso de problema nas queries
+                catch (Exception ex)
+                {
+                    throw new Exception("Erro ao executar o comando no banco de dados: " + ex.Message);
+                }
+            }
+        }
+
         public DataTable ExecutarConsultar(string sql)
         {
             using (MySqlConnection conexao = conectar())
